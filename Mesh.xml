@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qvNEkxs2_rSj_l_DTZVa-5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1" name="Square">
-          <mxGeometry x="270" y="30" width="540" height="540" as="geometry" />
+          <mxGeometry x="270" y="15" width="555" height="555" as="geometry" />
         </mxCell>
         <mxCell id="qvNEkxs2_rSj_l_DTZVa-22" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;/p&gt;&lt;b&gt;Ingressgateway&lt;/b&gt;&lt;hr size=&quot;1&quot;&gt;istio&lt;div&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px;&quot;&gt;vault&lt;/div&gt;&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="52.5" width="165" height="75" as="geometry" />
@@ -22,16 +22,10 @@
         <mxCell id="qvNEkxs2_rSj_l_DTZVa-34" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Background application&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;app&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;istio&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
           <mxGeometry x="600" y="300" width="165" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="qvNEkxs2_rSj_l_DTZVa-35" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Web&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;app&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;istio&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="165" width="165" height="90" as="geometry" />
+        <mxCell id="qvNEkxs2_rSj_l_DTZVa-35" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Web (1.0)&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;app&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;istio&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="180" width="75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="80Wwpay-NR4KYc9mQ709-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qvNEkxs2_rSj_l_DTZVa-22" target="qvNEkxs2_rSj_l_DTZVa-32" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="690" y="620" as="sourcePoint" />
-            <mxPoint x="740" y="570" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="80Wwpay-NR4KYc9mQ709-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.194;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qvNEkxs2_rSj_l_DTZVa-22" target="qvNEkxs2_rSj_l_DTZVa-35" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="620" as="sourcePoint" />
             <mxPoint x="740" y="570" as="targetPoint" />
@@ -112,7 +106,7 @@
         <mxCell id="ipBnrg_Ja9H27UvS26XD-22" value="Kind: Route" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="90" width="165" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="ipBnrg_Ja9H27UvS26XD-30" value="Указываем переадресацию в нужной сервис, порт, протокол и тип авторизации" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ipBnrg_Ja9H27UvS26XD-22" vertex="1">
+        <mxCell id="ipBnrg_Ja9H27UvS26XD-30" value="Указываем переадресацию в нужной сервис, порт, протокол и тип авторизации." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ipBnrg_Ja9H27UvS26XD-22" vertex="1">
           <mxGeometry y="30" width="165" height="75" as="geometry" />
         </mxCell>
         <mxCell id="ipBnrg_Ja9H27UvS26XD-31" value="Mock" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
@@ -142,7 +136,7 @@
         <mxCell id="ipBnrg_Ja9H27UvS26XD-39" value="Mock" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="75" y="420" width="165" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="ipBnrg_Ja9H27UvS26XD-42" value="В проектах связанных с системы может быть установлен сервис эмулирующий внешнюю систему. Разворачивать отдельно ее может быть дорого. Доступ к ней, а также ее до внешних систем может быть получен за счет использования тех же паттернов и шаблонов" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ipBnrg_Ja9H27UvS26XD-39" vertex="1">
+        <mxCell id="ipBnrg_Ja9H27UvS26XD-42" value="В проектах связанных с системы может быть установлен сервис эмулирующий внешнюю систему. Разворачивать отдельно ее может быть дорого. Доступ к ней, а также ее до внешних систем может быть получен за счет использования тех же паттернов и шаблонов." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ipBnrg_Ja9H27UvS26XD-39" vertex="1">
           <mxGeometry y="20" width="165" height="190" as="geometry" />
         </mxCell>
         <mxCell id="ipBnrg_Ja9H27UvS26XD-40" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.583;entryY=1.049;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="ipBnrg_Ja9H27UvS26XD-30" edge="1">
@@ -164,48 +158,48 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QqXXdODuXJF1-ZY6xbqu-5" value="Ingressgateway" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="855" y="37.5" width="165" height="105" as="geometry" />
+          <mxGeometry x="900" y="30" width="165" height="142.5" as="geometry" />
         </mxCell>
-        <mxCell id="QqXXdODuXJF1-ZY6xbqu-6" value="Сервис служит единой точкой входа" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QqXXdODuXJF1-ZY6xbqu-5" vertex="1">
-          <mxGeometry y="30" width="165" height="75" as="geometry" />
+        <mxCell id="QqXXdODuXJF1-ZY6xbqu-6" value="В одной из концепций реализации ведения трафика в проекте служит единой точкойвхода, где происходит авторизация, логирование трафика." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QqXXdODuXJF1-ZY6xbqu-5" vertex="1">
+          <mxGeometry y="30" width="165" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.631;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.015;entryY=0.409;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qvNEkxs2_rSj_l_DTZVa-22" target="QqXXdODuXJF1-ZY6xbqu-6">
+        <mxCell id="00_PlmWPNitVO8m_zRCl-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0.631;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.015;entryY=0.409;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qvNEkxs2_rSj_l_DTZVa-22" target="QqXXdODuXJF1-ZY6xbqu-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="485" as="sourcePoint" />
             <mxPoint x="740" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-2" value="EnvoyFilter" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="22.5" width="165" height="105" as="geometry" />
+        <mxCell id="00_PlmWPNitVO8m_zRCl-2" value="EnvoyFilter" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="30" width="165" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-3" value="Сервис служит единой точкой входа" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="00_PlmWPNitVO8m_zRCl-2">
-          <mxGeometry y="30" width="165" height="75" as="geometry" />
+        <mxCell id="00_PlmWPNitVO8m_zRCl-3" value="Данная конфигурация на ингресе применяется для многих концепций включая отсев пользователей по CN по определенным портам, хеддерам, добавлением доп информации в хеддеры, дополнительную проверку через отправление во внешние системы авторизации." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="00_PlmWPNitVO8m_zRCl-2" vertex="1">
+          <mxGeometry y="30" width="165" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-4" value="Gateway" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="75" width="165" height="105" as="geometry" />
+        <mxCell id="00_PlmWPNitVO8m_zRCl-4" value="Gateway" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1095" y="210" width="165" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-5" value="Сервис служит единой точкой входа" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="00_PlmWPNitVO8m_zRCl-4">
-          <mxGeometry y="30" width="165" height="75" as="geometry" />
+        <mxCell id="00_PlmWPNitVO8m_zRCl-5" value="При применении конфигурационного файла для применения к IngressGateway указывается порты и протоколы для серверного соединения. Также при необходимости указываются путь до серверных сертификатов, через которые будет происходить авторизация.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="00_PlmWPNitVO8m_zRCl-4" vertex="1">
+          <mxGeometry y="30" width="165" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.001;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.008;exitY=0.113;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QqXXdODuXJF1-ZY6xbqu-5" target="00_PlmWPNitVO8m_zRCl-2">
+        <mxCell id="00_PlmWPNitVO8m_zRCl-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.001;entryY=0.172;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.008;exitY=0.113;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="QqXXdODuXJF1-ZY6xbqu-5" target="00_PlmWPNitVO8m_zRCl-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="485" as="sourcePoint" />
             <mxPoint x="740" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="QqXXdODuXJF1-ZY6xbqu-6" target="00_PlmWPNitVO8m_zRCl-5">
+        <mxCell id="00_PlmWPNitVO8m_zRCl-7" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="QqXXdODuXJF1-ZY6xbqu-6" target="00_PlmWPNitVO8m_zRCl-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="485" as="sourcePoint" />
             <mxPoint x="740" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-9" value="VirtualService" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="292.5" width="165" height="105" as="geometry" />
+        <mxCell id="00_PlmWPNitVO8m_zRCl-9" value="VirtualService" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="915" y="240" width="165" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-10" value="Сервис служит единой точкой входа" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="00_PlmWPNitVO8m_zRCl-9">
-          <mxGeometry y="30" width="165" height="75" as="geometry" />
+        <mxCell id="00_PlmWPNitVO8m_zRCl-10" value="Конфигурационные файлы данного типа нужны для перемаршутизации с сервиса на другой сервис. В данном примере они обеспечивают весь трафик как от прихода на ingressgateway, перенаправления в сервис, так и запроса от сервиса до выведения через egressgateway, где шифруется трафик, а далее во внешнюю систему." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="00_PlmWPNitVO8m_zRCl-9" vertex="1">
+          <mxGeometry y="60" width="165" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="00_PlmWPNitVO8m_zRCl-10">
+        <mxCell id="00_PlmWPNitVO8m_zRCl-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" target="00_PlmWPNitVO8m_zRCl-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="555" y="150" as="sourcePoint" />
             <mxPoint x="740" y="435" as="targetPoint" />
@@ -215,31 +209,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-12" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="00_PlmWPNitVO8m_zRCl-10">
+        <mxCell id="00_PlmWPNitVO8m_zRCl-12" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="00_PlmWPNitVO8m_zRCl-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="555" y="420" as="sourcePoint" />
+            <mxPoint x="480" y="420" as="sourcePoint" />
             <mxPoint x="740" y="435" as="targetPoint" />
             <Array as="points">
               <mxPoint x="900" y="420" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.12;entryY=1.041;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="00_PlmWPNitVO8m_zRCl-10">
+        <mxCell id="00_PlmWPNitVO8m_zRCl-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="585" y="585" as="sourcePoint" />
-            <mxPoint x="740" y="435" as="targetPoint" />
+            <mxPoint x="935" y="480" as="targetPoint" />
             <Array as="points">
               <mxPoint x="900" y="585" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-14" value="ServiceEntry" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="00_PlmWPNitVO8m_zRCl-14" value="ServiceEntry" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="960" y="630" width="165" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-15" value="Сервис служит единой точкой входа" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="00_PlmWPNitVO8m_zRCl-14">
+        <mxCell id="00_PlmWPNitVO8m_zRCl-15" value="Описываются все внешние хосты, через которые будут выходить соединения через Egressgateway." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="00_PlmWPNitVO8m_zRCl-14" vertex="1">
           <mxGeometry y="30" width="165" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="00_PlmWPNitVO8m_zRCl-15">
+        <mxCell id="00_PlmWPNitVO8m_zRCl-16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" target="00_PlmWPNitVO8m_zRCl-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="585" y="615" as="sourcePoint" />
             <mxPoint x="740" y="435" as="targetPoint" />
@@ -248,46 +242,97 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-17" value="DestinationRule" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="630" width="165" height="105" as="geometry" />
+        <mxCell id="00_PlmWPNitVO8m_zRCl-17" value="DestinationRule" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1185" y="645" width="165" height="195" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-18" value="Сервис служит единой точкой входа" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="00_PlmWPNitVO8m_zRCl-17">
-          <mxGeometry y="30" width="165" height="75" as="geometry" />
+        <mxCell id="00_PlmWPNitVO8m_zRCl-18" value="В концепции единого выходного сервиса, конфигурационные файлы данного типа описывают все сертификаты, которыми шифруются внешнии соединения в зависимости от порта, на котором была перемашрутизация на Egressgateway, как также лейблов." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="00_PlmWPNitVO8m_zRCl-17" vertex="1">
+          <mxGeometry y="30" width="165" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-19" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="00_PlmWPNitVO8m_zRCl-17">
+        <mxCell id="00_PlmWPNitVO8m_zRCl-19" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="00_PlmWPNitVO8m_zRCl-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="585" y="600" as="sourcePoint" />
             <mxPoint x="740" y="435" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1283" y="600" />
+              <mxPoint x="1185" y="615" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-20" value="Egressgateway" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="435" width="165" height="105" as="geometry" />
+        <mxCell id="00_PlmWPNitVO8m_zRCl-20" value="Egressgateway" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1245" y="435" width="165" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-21" value="Сервис служит единой точкой входа" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="00_PlmWPNitVO8m_zRCl-20">
-          <mxGeometry y="30" width="165" height="75" as="geometry" />
+        <mxCell id="00_PlmWPNitVO8m_zRCl-21" value="Сервис служит единой точкой выходного трафика, где соединение шифруется, логируется. Данная концепция позволяет легче осуществлять мониторинг всех выходящих соединений и осуществлять контроль над количество каждого типа запросов." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="00_PlmWPNitVO8m_zRCl-20" vertex="1">
+          <mxGeometry y="30" width="165" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-22" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qvNEkxs2_rSj_l_DTZVa-29" target="00_PlmWPNitVO8m_zRCl-21">
+        <mxCell id="00_PlmWPNitVO8m_zRCl-22" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.006;entryY=0.421;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qvNEkxs2_rSj_l_DTZVa-29" target="00_PlmWPNitVO8m_zRCl-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="485" as="sourcePoint" />
             <mxPoint x="740" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-23" value="WorkloadEntry" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="75" y="660" width="165" height="105" as="geometry" />
+        <mxCell id="00_PlmWPNitVO8m_zRCl-23" value="WorkloadEntry" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="75" y="660" width="165" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-24" value="Сервис служит единой точкой входа" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="00_PlmWPNitVO8m_zRCl-23">
-          <mxGeometry y="30" width="165" height="75" as="geometry" />
+        <mxCell id="00_PlmWPNitVO8m_zRCl-24" value="В случае выхода на хосты по лейблам, создается данный конфигурационный файл. Также в случае нескольких виртуальных машин по одному ip-адресу. Идет в связке в ServiceEntry" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="00_PlmWPNitVO8m_zRCl-23" vertex="1">
+          <mxGeometry y="30" width="165" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="00_PlmWPNitVO8m_zRCl-25" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="00_PlmWPNitVO8m_zRCl-24">
+        <mxCell id="00_PlmWPNitVO8m_zRCl-25" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="00_PlmWPNitVO8m_zRCl-24" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="690" y="395" as="sourcePoint" />
             <mxPoint x="570" y="600" as="targetPoint" />
             <Array as="points">
               <mxPoint x="300" y="709" />
               <mxPoint x="300" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCN97sUOKGkFKi2yDZdJ-1" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Web&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(2.0)&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;&lt;/div&gt;app&lt;hr size=&quot;1&quot;&gt;&lt;div style=&quot;height: 2px&quot;&gt;istio&lt;/div&gt;" style="verticalAlign=top;align=center;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="180" width="75" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fCN97sUOKGkFKi2yDZdJ-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="qvNEkxs2_rSj_l_DTZVa-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="150" as="sourcePoint" />
+            <mxPoint x="845" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCN97sUOKGkFKi2yDZdJ-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="fCN97sUOKGkFKi2yDZdJ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="150" as="sourcePoint" />
+            <mxPoint x="845" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCN97sUOKGkFKi2yDZdJ-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="qvNEkxs2_rSj_l_DTZVa-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="795" y="410" as="sourcePoint" />
+            <mxPoint x="675" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCN97sUOKGkFKi2yDZdJ-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qvNEkxs2_rSj_l_DTZVa-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="795" y="410" as="sourcePoint" />
+            <mxPoint x="662" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCN97sUOKGkFKi2yDZdJ-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.619;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fCN97sUOKGkFKi2yDZdJ-1" target="qvNEkxs2_rSj_l_DTZVa-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="795" y="410" as="sourcePoint" />
+            <mxPoint x="845" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCN97sUOKGkFKi2yDZdJ-8" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" target="00_PlmWPNitVO8m_zRCl-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="615" y="285" as="sourcePoint" />
+            <mxPoint x="845" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fCN97sUOKGkFKi2yDZdJ-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1.004;exitY=0.893;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.44;entryY=0.979;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="00_PlmWPNitVO8m_zRCl-24" target="00_PlmWPNitVO8m_zRCl-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="795" y="500" as="sourcePoint" />
+            <mxPoint x="845" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1033" y="784" />
             </Array>
           </mxGeometry>
         </mxCell>
